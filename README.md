@@ -8,10 +8,10 @@ The original version of the plugin was created by Mr-Button, with my modificatio
 
 The enabled plugin checks every half second for changes in the ma3 system for the executor/fader/encoder on the current page and sends them via OSC.
 
-In this plugin, the following numbers are entered in the table - 201-215 and 301-315.
+In this plugin, the following numbers are entered in the table - 301-315.
 
-If you want, you can add the remaining numbers (e.g., from another wing).
-local executor_table = {201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315}
+If you want, you can add the remaining numbers (e.g., from another wing , or encoders 201-215).
+local executor_table = {301,302,303,304,305,306,307,308,309,310,311,312,313,314,315}
 
 Second line
 local osc_config = 1
