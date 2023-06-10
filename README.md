@@ -22,11 +22,7 @@ local osc_config = 1
 
 This means that the selected OSC IN/OUT settings will be used for sending - the first position.
 
-If you want to send OSC on a different port, add the appropriate entry in OSC IN/OUT, and change
-
-local osc_config = 1
-
-to
+If you want to send OSC on a different port, add the appropriate entry in OSC IN/OUT, and change to
 
 local osc_config = 2
 
