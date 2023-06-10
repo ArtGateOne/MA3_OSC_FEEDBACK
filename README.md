@@ -11,14 +11,19 @@ The enabled plugin checks every half second for changes in the ma3 system for th
 In this plugin, the following numbers are entered in the table - 301-315.
 
 If you want, you can add the remaining numbers (e.g., from another wing , or encoders 201-215).
+
 local executor_table = {301,302,303,304,305,306,307,308,309,310,311,312,313,314,315}
 
+
+
 Second line
+
 local osc_config = 1
 
 This means that the selected OSC IN/OUT settings will be used for sending - the first position.
 
 If you want to send OSC on a different port, add the appropriate entry in OSC IN/OUT, and change
+
 local osc_config = 1
 
 to
