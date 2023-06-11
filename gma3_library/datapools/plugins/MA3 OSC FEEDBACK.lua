@@ -1,4 +1,4 @@
-﻿local executor_table = {301,302,303,304,305,306,307,308,309,310,311,312,313,314,315}
+﻿local executor_table = {201,202,203,204,205,206,207,208,209,210,211,212,213,214,215}
 local osc_config = 1
 local history_fader, history_status = {}, {}
 local osc_template = 'SendOSC %i "/%s%i,i,%i"'
